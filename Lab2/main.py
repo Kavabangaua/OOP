@@ -70,38 +70,38 @@ class Employee:
             return self.__payment_system.calculate_salary()
         return 0.0
 
-# Демонстрація роботи
+#демонстрація роботи
 if __name__ == "__main__":
-    # Створення працівників
+    #створення працівників
     manager = Employee("Іван Карасьович", "Менеджер")
     worker = Employee("Петро Бульбашка", "Робітник")
     lead_worker = Employee("Мемен Коваленко", "Провідний робітник")
     
-    # Налаштування систем оплати
+    #налаштування систем оплати
     manager.set_payment_system(
         PaymentSystem(FixedRateCalculator(15000))
     )
     
-    worker_calculator = ProductionCalculator(100)
+    worker_calculator = ProductionCalculator(230)
     worker.set_payment_system(
         PaymentSystem(worker_calculator)
     )
     
-    lead_calculator = ProductionCalculator(120)
+    lead_calculator = ProductionCalculator(1000)
     lead_worker.set_payment_system(
         PaymentSystem(BonusCalculator(lead_calculator, 15))
     )
     
-    # Демонстрація розрахунку зарплати
+    #демонстрація розрахунку зарплати
     print(f"Зарплата {manager.position}а {manager.name}: "
           f"{manager.calculate_salary():.2f} грн")
     
-    # Додаємо виробіток для робітника
+    #додаємо виробіток для робітника
     worker_calculator.add_production(100)
     print(f"Зарплата {worker.position}а {worker.name}: "
           f"{worker.calculate_salary():.2f} грн")
     
-    # Додаємо виробіток для провідного робітника
+    #додаємо виробіток для провідного робітника
     lead_calculator.add_production(100)
     print(f"Зарплата {lead_worker.position}а {lead_worker.name}: "
           f"{lead_worker.calculate_salary():.2f} грн")
