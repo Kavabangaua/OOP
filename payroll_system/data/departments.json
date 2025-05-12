@@ -1,0 +1,16 @@
+[
+  {
+    "id": 101,
+    "name": "Відділ розробки",
+    "manager_id": 1,
+    "monthly_plan": 500.0,
+    "plan_distribution_strategy_id": "experience"
+  },
+  {
+    "id": 102,
+    "name": "Відділ продажів",
+    "manager_id": 3,
+    "monthly_plan": 10000.0,
+    "plan_distribution_strategy_id": "equal"
+  }
+]

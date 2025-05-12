@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "Анна Коваленко",
+    "position": "Керівник відділу розробки",
+    "department_id": 101,
+    "base_salary_scheme_id": "fixed",
+    "bonus_scheme_id": "plan_15",
+    "experience_years": 7
+  },
+  {
+    "id": 2,
+    "name": "Петро Сидоренко",
+    "position": "Розробник",
+    "department_id": 101,
+    "base_salary_scheme_id": "fixed",
+    "bonus_scheme_id": "percent_10",
+    "experience_years": 3
+  },
+  {
+    "id": 3,
+    "name": "Ольга Петренко",
+    "position": "Керівник відділу продажів",
+    "department_id": 102,
+    "base_salary_scheme_id": "fixed",
+    "bonus_scheme_id": "plan_15",
+    "experience_years": 5
+  },
+  {
+    "id": 4,
+    "name": "Василь Зайченко",
+    "position": "Менеджер з продажів",
+    "department_id": 102,
+    "base_salary_scheme_id": "production",
+    "bonus_scheme_id": "fixed_1k",
+    "experience_years": 2
+  }
+]
