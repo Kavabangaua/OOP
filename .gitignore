@@ -1,2 +1,5 @@
 diagrams.md
 lab7_expl.txt
+/pycache
+/venv
+/__pycache__
