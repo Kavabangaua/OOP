@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Анна Коваленко",
+        "position": "Керівник відділу розробки",
+        "department_id": 101,
+        "calculated_salary": 13500.0
+    },
+    {
+        "id": 2,
+        "name": "Петро Сидоренко",
+        "position": "Розробник",
+        "department_id": 101,
+        "calculated_salary": 12650.0
+    },
+    {
+        "id": 3,
+        "name": "Ольга Петренко",
+        "position": "Керівник відділу продажів",
+        "department_id": 102,
+        "calculated_salary": 14375.0
+    },
+    {
+        "id": 4,
+        "name": "Василь Зайченко",
+        "position": "Менеджер з продажів",
+        "department_id": 102,
+        "calculated_salary": 13500.0
+    }
+]
